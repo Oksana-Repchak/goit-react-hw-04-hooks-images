@@ -31,7 +31,6 @@ function Modal({ onClose, src, alt }) {
       onClose();
     }
   };
-
   return createPortal(
     <div className={s.Overlay} onClick={handleBackdropClick}>
       <div className={s.Modal}>

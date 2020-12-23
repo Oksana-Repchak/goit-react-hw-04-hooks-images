@@ -12,5 +12,5 @@ export default function Button({ onClick }) {
 }
 
 Button.propTypes = {
-  fetchImages: PropTypes.func.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
